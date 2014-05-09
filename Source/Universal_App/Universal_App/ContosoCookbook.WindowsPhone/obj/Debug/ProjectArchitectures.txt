@@ -1,0 +1,1 @@
+C:\Users\Michael\Dropbox\Speaking\TechEd\Source\Universal_App\Universal_App\ContosoCookbook.WindowsPhone\ContosoCookbook.WindowsPhone.csproj;neutral

@@ -1,0 +1,407 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>THINKPAD-WIN8</Machine>
+    <WindowsUser>Michael</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>BUILD.87821274-9e97-488c-b5af-69dace508bff</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\obj\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\bin\Debug\ContosoCookbook.exe">
+      <PackagePath>ContosoCookbook.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\Assets\DarkGray.png">
+      <PackagePath>Assets\DarkGray.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\Assets\LargeLogo.scale-100.png">
+      <PackagePath>Assets\LargeLogo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\Assets\LightGray.png">
+      <PackagePath>Assets\LightGray.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\Assets\MediumGray.png">
+      <PackagePath>Assets\MediumGray.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\Assets\WideLogo.scale-100.png">
+      <PackagePath>Assets\WideLogo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\Images\Chinese\chinese_group.png">
+      <PackagePath>Images\Chinese\chinese_group.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\Images\Chinese\chinese_group_detail.png">
+      <PackagePath>Images\Chinese\chinese_group_detail.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\Images\Chinese\chinese_group_header.png">
+      <PackagePath>Images\Chinese\chinese_group_header.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\Images\French\french_group.png">
+      <PackagePath>Images\French\french_group.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\Images\French\french_group_detail.png">
+      <PackagePath>Images\French\french_group_detail.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\Images\French\french_group_header.png">
+      <PackagePath>Images\French\french_group_header.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\Images\German\german_group.png">
+      <PackagePath>Images\German\german_group.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\Images\German\german_group_detail.png">
+      <PackagePath>Images\German\german_group_detail.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\Images\German\german_group_header.png">
+      <PackagePath>Images\German\german_group_header.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\Images\Hero.png">
+      <PackagePath>Images\Hero.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\Images\Indian\indian_group.png">
+      <PackagePath>Images\Indian\indian_group.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\Images\Indian\indian_group_detail.png">
+      <PackagePath>Images\Indian\indian_group_detail.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\Images\Indian\indian_group_header.png">
+      <PackagePath>Images\Indian\indian_group_header.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\Images\Italian\italian_group.png">
+      <PackagePath>Images\Italian\italian_group.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\Images\Italian\italian_group_detail.png">
+      <PackagePath>Images\Italian\italian_group_detail.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\Images\Italian\italian_group_header.png">
+      <PackagePath>Images\Italian\italian_group_header.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\Images\Mexican\mexican_group.png">
+      <PackagePath>Images\Mexican\mexican_group.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\Images\Mexican\mexican_group_detail.png">
+      <PackagePath>Images\Mexican\mexican_group_detail.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\Images\Mexican\mexican_group_header.png">
+      <PackagePath>Images\Mexican\mexican_group_header.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\DataModel\license.xml">
+      <PackagePath>DataModel\license.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\Images\Beans.jpg">
+      <PackagePath>Images\Beans.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\Images\Bread.jpg">
+      <PackagePath>Images\Bread.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\Images\Chinese\Chinese_1_150_C.jpg">
+      <PackagePath>Images\Chinese\Chinese_1_150_C.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\Images\Chinese\Chinese_1_600_C.jpg">
+      <PackagePath>Images\Chinese\Chinese_1_600_C.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\Images\Chinese\Chinese_2_150_C.jpg">
+      <PackagePath>Images\Chinese\Chinese_2_150_C.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\Images\Chinese\Chinese_2_600_C.jpg">
+      <PackagePath>Images\Chinese\Chinese_2_600_C.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\Images\Chinese\Chinese_3_150_C.jpg">
+      <PackagePath>Images\Chinese\Chinese_3_150_C.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\Images\Chinese\Chinese_3_600_C.jpg">
+      <PackagePath>Images\Chinese\Chinese_3_600_C.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\Images\Chinese\Chinese_4_150_C.jpg">
+      <PackagePath>Images\Chinese\Chinese_4_150_C.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\Images\Chinese\Chinese_4_600_C.jpg">
+      <PackagePath>Images\Chinese\Chinese_4_600_C.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\Images\Chinese\Chinese_5_150_C.jpg">
+      <PackagePath>Images\Chinese\Chinese_5_150_C.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\Images\Chinese\Chinese_5_600_C.jpg">
+      <PackagePath>Images\Chinese\Chinese_5_600_C.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\Images\Chinese\Chinese_6_150_C.jpg">
+      <PackagePath>Images\Chinese\Chinese_6_150_C.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\Images\Chinese\Chinese_6_310_C.jpg">
+      <PackagePath>Images\Chinese\Chinese_6_310_C.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\Images\Chinese\Chinese_6_600_C.jpg">
+      <PackagePath>Images\Chinese\Chinese_6_600_C.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\Images\French\French_1_150_C.jpg">
+      <PackagePath>Images\French\French_1_150_C.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\Images\French\French_1_600_C.jpg">
+      <PackagePath>Images\French\French_1_600_C.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\Images\French\French_2_150_C.jpg">
+      <PackagePath>Images\French\French_2_150_C.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\Images\French\French_2_310_C.jpg">
+      <PackagePath>Images\French\French_2_310_C.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\Images\French\French_2_600_C.jpg">
+      <PackagePath>Images\French\French_2_600_C.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\Images\French\French_3_150_C.jpg">
+      <PackagePath>Images\French\French_3_150_C.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\Images\French\French_3_600_C.jpg">
+      <PackagePath>Images\French\French_3_600_C.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\Images\French\French_4_150_C.jpg">
+      <PackagePath>Images\French\French_4_150_C.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\Images\French\French_4_600_C.jpg">
+      <PackagePath>Images\French\French_4_600_C.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\Images\French\French_5_150_C.jpg">
+      <PackagePath>Images\French\French_5_150_C.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\Images\French\French_5_600_C.jpg">
+      <PackagePath>Images\French\French_5_600_C.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\Images\French\French_6_150_C.jpg">
+      <PackagePath>Images\French\French_6_150_C.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\Images\French\French_6_600_C.jpg">
+      <PackagePath>Images\French\French_6_600_C.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\Images\Fruit.jpg">
+      <PackagePath>Images\Fruit.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\Images\German\German_1_150_C.jpg">
+      <PackagePath>Images\German\German_1_150_C.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\Images\German\German_1_600_C.jpg">
+      <PackagePath>Images\German\German_1_600_C.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\Images\German\German_2_150_C.jpg">
+      <PackagePath>Images\German\German_2_150_C.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\Images\German\German_2_600_C.jpg">
+      <PackagePath>Images\German\German_2_600_C.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\Images\German\German_3_150_C.jpg">
+      <PackagePath>Images\German\German_3_150_C.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\Images\German\German_3_600_C.jpg">
+      <PackagePath>Images\German\German_3_600_C.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\Images\German\German_4_150_C.jpg">
+      <PackagePath>Images\German\German_4_150_C.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\Images\German\German_4_310_C.jpg">
+      <PackagePath>Images\German\German_4_310_C.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\Images\German\German_4_600_C.jpg">
+      <PackagePath>Images\German\German_4_600_C.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\Images\German\German_5_150_C.jpg">
+      <PackagePath>Images\German\German_5_150_C.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\Images\German\German_5_600_C.jpg">
+      <PackagePath>Images\German\German_5_600_C.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\Images\German\German_6_150_C.jpg">
+      <PackagePath>Images\German\German_6_150_C.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\Images\German\German_6_600_C.jpg">
+      <PackagePath>Images\German\German_6_600_C.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\Images\Indian\Indian_1_150_C.jpg">
+      <PackagePath>Images\Indian\Indian_1_150_C.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\Images\Indian\Indian_1_600_C.jpg">
+      <PackagePath>Images\Indian\Indian_1_600_C.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\Images\Indian\Indian_2_150_C.jpg">
+      <PackagePath>Images\Indian\Indian_2_150_C.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\Images\Indian\Indian_2_600_C.jpg">
+      <PackagePath>Images\Indian\Indian_2_600_C.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\Images\Indian\Indian_3_150_C.jpg">
+      <PackagePath>Images\Indian\Indian_3_150_C.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\Images\Indian\Indian_3_600_C.jpg">
+      <PackagePath>Images\Indian\Indian_3_600_C.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\Images\Indian\Indian_4_150_C.jpg">
+      <PackagePath>Images\Indian\Indian_4_150_C.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\Images\Indian\Indian_4_600_C.jpg">
+      <PackagePath>Images\Indian\Indian_4_600_C.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\Images\Indian\Indian_5_150_C.jpg">
+      <PackagePath>Images\Indian\Indian_5_150_C.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\Images\Indian\Indian_5_600_C.jpg">
+      <PackagePath>Images\Indian\Indian_5_600_C.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\Images\Indian\Indian_6_150_C.jpg">
+      <PackagePath>Images\Indian\Indian_6_150_C.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\Images\Indian\Indian_6_600_C.jpg">
+      <PackagePath>Images\Indian\Indian_6_600_C.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\Images\Italian\Italian_1_150_C.jpg">
+      <PackagePath>Images\Italian\Italian_1_150_C.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\Images\Italian\Italian_1_600_C.jpg">
+      <PackagePath>Images\Italian\Italian_1_600_C.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\Images\Italian\Italian_2_150_C.jpg">
+      <PackagePath>Images\Italian\Italian_2_150_C.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\Images\Italian\Italian_2_600_C.jpg">
+      <PackagePath>Images\Italian\Italian_2_600_C.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\Images\Italian\Italian_3_150_C.jpg">
+      <PackagePath>Images\Italian\Italian_3_150_C.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\Images\Italian\Italian_3_600_C.jpg">
+      <PackagePath>Images\Italian\Italian_3_600_C.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\Images\Italian\Italian_4_150_C.jpg">
+      <PackagePath>Images\Italian\Italian_4_150_C.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\Images\Italian\Italian_4_310_C.jpg">
+      <PackagePath>Images\Italian\Italian_4_310_C.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\Images\Italian\Italian_4_600_C.jpg">
+      <PackagePath>Images\Italian\Italian_4_600_C.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\Images\Italian\Italian_5_150_C.jpg">
+      <PackagePath>Images\Italian\Italian_5_150_C.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\Images\Italian\Italian_5_310_C.jpg">
+      <PackagePath>Images\Italian\Italian_5_310_C.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\Images\Italian\Italian_5_600_C.jpg">
+      <PackagePath>Images\Italian\Italian_5_600_C.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\Images\Italian\Italian_6_150_C.jpg">
+      <PackagePath>Images\Italian\Italian_6_150_C.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\Images\Italian\Italian_6_600_C.jpg">
+      <PackagePath>Images\Italian\Italian_6_600_C.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\Images\Mexican\Mexican_1_150_C.jpg">
+      <PackagePath>Images\Mexican\Mexican_1_150_C.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\Images\Mexican\Mexican_1_600_C.jpg">
+      <PackagePath>Images\Mexican\Mexican_1_600_C.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\Images\Mexican\Mexican_2_150_C.jpg">
+      <PackagePath>Images\Mexican\Mexican_2_150_C.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\Images\Mexican\Mexican_2_600_C.jpg">
+      <PackagePath>Images\Mexican\Mexican_2_600_C.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\Images\Mexican\Mexican_3_150_C.jpg">
+      <PackagePath>Images\Mexican\Mexican_3_150_C.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\Images\Mexican\Mexican_3_600_C.jpg">
+      <PackagePath>Images\Mexican\Mexican_3_600_C.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\Images\Mexican\Mexican_4_150_C.jpg">
+      <PackagePath>Images\Mexican\Mexican_4_150_C.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\Images\Mexican\Mexican_4_600_C.jpg">
+      <PackagePath>Images\Mexican\Mexican_4_600_C.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\Images\Mexican\Mexican_5_150_C.jpg">
+      <PackagePath>Images\Mexican\Mexican_5_150_C.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\Images\Mexican\Mexican_5_600_C.jpg">
+      <PackagePath>Images\Mexican\Mexican_5_600_C.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\Images\Mexican\Mexican_6_150_C.jpg">
+      <PackagePath>Images\Mexican\Mexican_6_150_C.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\Images\Mexican\Mexican_6_600_C.jpg">
+      <PackagePath>Images\Mexican\Mexican_6_600_C.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\Images\Muesli.jpg">
+      <PackagePath>Images\Muesli.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\Images\Tiles\Chinese_6_310_C.jpg">
+      <PackagePath>Images\Tiles\Chinese_6_310_C.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\Images\Tiles\French_2_310_C.jpg">
+      <PackagePath>Images\Tiles\French_2_310_C.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\Images\Tiles\German_4_310_C.jpg">
+      <PackagePath>Images\Tiles\German_4_310_C.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\Images\Tiles\Italian_4_310_C.jpg">
+      <PackagePath>Images\Tiles\Italian_4_310_C.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\Images\Tiles\Italian_5_310_C.jpg">
+      <PackagePath>Images\Tiles\Italian_5_310_C.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\DataModel\SampleData.json">
+      <PackagePath>DataModel\SampleData.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\bin\Debug\AboutFlyout.xbf">
+      <PackagePath>AboutFlyout.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\bin\Debug\HubPage.xbf">
+      <PackagePath>HubPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\bin\Debug\ItemPage.xbf">
+      <PackagePath>ItemPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\bin\Debug\PreferencesFlyout.xbf">
+      <PackagePath>PreferencesFlyout.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\bin\Debug\Resources.xbf">
+      <PackagePath>Resources.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\bin\Debug\SectionPage.xbf">
+      <PackagePath>SectionPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\bin\Debug\SectionUserControl.xbf">
+      <PackagePath>SectionUserControl.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\bin\Debug\ContosoCookbook.xr.xml">
+      <PackagePath>ContosoCookbook.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

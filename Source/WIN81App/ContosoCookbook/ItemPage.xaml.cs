@@ -1,0 +1,225 @@
+﻿// ----------------------------------------------------------------------------------
+// Microsoft Developer & Platform Evangelism
+// 
+// Copyright (c) Microsoft Corporation. All rights reserved.
+// 
+// THIS CODE AND INFORMATION ARE PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND, 
+// EITHER EXPRESSED OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE IMPLIED WARRANTIES 
+// OF MERCHANTABILITY AND/OR FITNESS FOR A PARTICULAR PURPOSE.
+// ----------------------------------------------------------------------------------
+// The example companies, organizations, products, domain names,
+// e-mail addresses, logos, people, places, and events depicted
+// herein are fictitious.  No association with any real company,
+// organization, product, domain name, email address, logo, person,
+// places, or events is intended or should be inferred.
+// ----------------------------------------------------------------------------------
+
+using ContosoCookbook.Common;
+using ContosoCookbook.Data;
+using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+using System.Runtime.InteropServices.WindowsRuntime;
+using System.Windows.Input;
+using Windows.Foundation;
+using Windows.Foundation.Collections;
+using Windows.UI.Xaml;
+using Windows.UI.Xaml.Controls;
+using Windows.UI.Xaml.Controls.Primitives;
+using Windows.UI.Xaml.Data;
+using Windows.UI.Xaml.Input;
+using Windows.UI.Xaml.Media;
+using Windows.UI.Xaml.Navigation;
+using Windows.ApplicationModel.DataTransfer;
+using System.Text;
+using Windows.Storage.Streams;
+using Windows.Media.Capture;
+using Windows.Storage;
+using Windows.UI.StartScreen;
+using Windows.UI.Notifications;
+using Windows.UI.Popups;
+using Windows.ApplicationModel.Store;
+
+// The Item Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=234232
+
+namespace ContosoCookbook
+{
+    /// <summary>
+    /// A page that displays details for a single item within a group.
+    /// </summary>
+    public sealed partial class ItemPage : Page
+    {
+        private NavigationHelper navigationHelper;
+        private ObservableDictionary defaultViewModel = new ObservableDictionary();
+        private StorageFile _photo; // Photo file to share
+        private StorageFile _video; // Video file to share
+
+        /// <summary>
+        /// NavigationHelper is used on each page to aid in navigation and 
+        /// process lifetime management
+        /// </summary>
+        public NavigationHelper NavigationHelper
+        {
+            get { return this.navigationHelper; }
+        }
+
+        /// <summary>
+        /// This can be changed to a strongly typed view model.
+        /// </summary>
+        public ObservableDictionary DefaultViewModel
+        {
+            get { return this.defaultViewModel; }
+        }
+
+        public ItemPage()
+        {
+            this.InitializeComponent();
+            this.navigationHelper = new NavigationHelper(this);
+            this.navigationHelper.LoadState += navigationHelper_LoadState;
+        }
+
+        /// <summary>
+        /// Populates the page with content passed during navigation.  Any saved state is also
+        /// provided when recreating a page from a prior session.
+        /// </summary>
+        /// <param name="sender">
+        /// The source of the event; typically <see cref="NavigationHelper"/>
+        /// </param>
+        /// <param name="e">Event data that provides both the navigation parameter passed to
+        /// <see cref="Frame.Navigate(Type, Object)"/> when this page was initially requested and
+        /// a dictionary of state preserved by this page during an earlier
+        /// session.  The state will be null the first time a page is visited.</param>
+        private async void navigationHelper_LoadState(object sender, LoadStateEventArgs e)
+        {
+            // TODO: Create an appropriate data model for your problem domain to replace the sample data
+            var item = await SampleDataSource.GetItemAsync((String)e.NavigationParameter);
+            this.DefaultViewModel["Item"] = item;
+
+            // Pass the group title to the LicenseDataSource (important!)
+            ProductLicenseDataSource license = (ProductLicenseDataSource)App.Current.Resources["License"];
+            license.GroupTitle = item.Group.Title;
+        }
+
+        void OnDataRequested(DataTransferManager sender, DataRequestedEventArgs args)
+        {
+            var request = args.Request;
+            var item = (SampleDataItem)this.DefaultViewModel["Item"];
+            request.Data.Properties.Title = item.Title;
+
+            if (_photo != null)
+            {
+                request.Data.Properties.Description = "Recipe photo";
+                var reference = Windows.Storage.Streams.RandomAccessStreamReference.CreateFromFile(_photo);
+                request.Data.Properties.Thumbnail = reference;
+                request.Data.SetBitmap(reference);
+                _photo = null;
+            }
+            else if (_video != null)
+            {
+                request.Data.Properties.Description = "Recipe video";
+                List<StorageFile> items = new List<StorageFile>();
+                items.Add(_video);
+                request.Data.SetStorageItems(items);
+                _video = null;
+            }
+            else
+            {
+                request.Data.Properties.Description = "Recipe ingredients and directions";
+
+                // Share recipe text
+                var recipe = "\r\nINGREDIENTS\r\n";
+                recipe += String.Join("\r\n", item.Ingredients);
+                recipe += ("\r\n\r\nDIRECTIONS\r\n" + item.Content);
+                request.Data.SetText(recipe);
+
+                // Share recipe image
+                var reference = RandomAccessStreamReference.CreateFromUri(new Uri("ms-appx:///" + item.ImagePath));
+                request.Data.Properties.Thumbnail = reference;
+                request.Data.SetBitmap(reference);
+            }
+        }
+
+        private async void OnPinRecipe(object sender, RoutedEventArgs e)
+        {
+            var item = (SampleDataItem)this.DefaultViewModel["Item"];
+            var uri = new Uri("ms-appx:///" + item.TileImagePath);
+
+            var tile = new SecondaryTile(
+                item.UniqueId,
+                item.Title,
+                item.UniqueId,
+                uri,
+                TileSize.Square150x150);
+
+            tile.VisualElements.ShowNameOnSquare150x150Logo = true;
+
+            await tile.RequestCreateAsync();
+        }
+
+        private async void OnRemindRecipe(object sender, RoutedEventArgs e)
+        {
+            var notifier = ToastNotificationManager.CreateToastNotifier();
+
+            // Make sure notifications are enabled
+            if (notifier.Setting != NotificationSetting.Enabled)
+            {
+                var dialog = new MessageDialog("Notifications are currently disabled");
+                await dialog.ShowAsync();
+                return;
+            }
+
+            // Get a toast template and insert a text node containing a message
+            var template = ToastNotificationManager.GetTemplateContent(ToastTemplateType.ToastText01);
+            var element = template.GetElementsByTagName("text")[0];
+            element.AppendChild(template.CreateTextNode("Reminder!"));
+
+            // Schedule the toast to appear 30 seconds from now
+            var date = DateTimeOffset.Now.AddSeconds(30);
+            var stn = new ScheduledToastNotification(template, date);
+            notifier.AddToSchedule(stn);
+        }
+
+        private async void OnPurchaseProduct(object sender, RoutedEventArgs e)
+        {
+            // Check if this is a trial first, you can’t buy products in trial 
+            if (CurrentAppSimulator.LicenseInformation.IsTrial)
+                await new Windows.UI.Popups.MessageDialog("Please go into About page in Settings and license first", "You must upgrade from trial first").ShowAsync();
+            else
+            {
+                // Purchase the ItalianRecipes product 
+                await CurrentAppSimulator.RequestProductPurchaseAsync("ItalianRecipes");
+            }
+        }
+
+        #region NavigationHelper registration
+
+        /// The methods provided in this section are simply used to allow
+        /// NavigationHelper to respond to the page's navigation methods.
+        /// 
+        /// Page specific logic should be placed in event handlers for the  
+        /// <see cref="GridCS.Common.NavigationHelper.LoadState"/>
+        /// and <see cref="GridCS.Common.NavigationHelper.SaveState"/>.
+        /// The navigation parameter is available in the LoadState method 
+        /// in addition to page state preserved during an earlier session.
+
+
+        protected override void OnNavigatedTo(NavigationEventArgs e)
+        {
+            navigationHelper.OnNavigatedTo(e);
+
+            // Register for DataRequested events
+            DataTransferManager.GetForCurrentView().DataRequested += OnDataRequested;
+        }
+
+        protected override void OnNavigatedFrom(NavigationEventArgs e)
+        {
+            navigationHelper.OnNavigatedFrom(e);
+
+            // Deregister the DataRequested event handler
+            DataTransferManager.GetForCurrentView().DataRequested -= OnDataRequested;
+        }
+
+        #endregion
+    }
+}

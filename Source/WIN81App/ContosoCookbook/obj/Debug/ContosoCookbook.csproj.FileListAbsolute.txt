@@ -1,0 +1,180 @@
+C:\Samples\ContosoCookbook\ContosoCookbook\bin\Debug\App.xbf
+C:\Samples\ContosoCookbook\ContosoCookbook\bin\Debug\AboutSettingsFlyout.xbf
+C:\Samples\ContosoCookbook\ContosoCookbook\bin\Debug\GroupedItemsPage.xbf
+C:\Samples\ContosoCookbook\ContosoCookbook\bin\Debug\GroupDetailPage.xbf
+C:\Samples\ContosoCookbook\ContosoCookbook\bin\Debug\ItemDetailPage.xbf
+C:\Samples\ContosoCookbook\ContosoCookbook\bin\Debug\PreferencesSettingsFlyout.xbf
+C:\Samples\ContosoCookbook\ContosoCookbook\bin\Debug\SearchResultsPage.xbf
+C:\Samples\ContosoCookbook\ContosoCookbook\bin\Debug\ContosoCookbook.exe
+C:\Samples\ContosoCookbook\ContosoCookbook\bin\Debug\ContosoCookbook.pdb
+C:\Samples\ContosoCookbook\ContosoCookbook\bin\Debug\resources.pri
+C:\Samples\ContosoCookbook\ContosoCookbook\bin\Debug\AppxManifest.xml
+C:\Samples\ContosoCookbook\ContosoCookbook\bin\Debug\ContosoCookbook.build.appxrecipe
+C:\Samples\ContosoCookbook\ContosoCookbook\obj\Debug\App.g.i.cs
+C:\Samples\ContosoCookbook\ContosoCookbook\obj\Debug\App.g.cs
+C:\Samples\ContosoCookbook\ContosoCookbook\obj\Debug\AboutSettingsFlyout.g.i.cs
+C:\Samples\ContosoCookbook\ContosoCookbook\obj\Debug\AboutSettingsFlyout.g.cs
+C:\Samples\ContosoCookbook\ContosoCookbook\obj\Debug\GroupedItemsPage.g.i.cs
+C:\Samples\ContosoCookbook\ContosoCookbook\obj\Debug\GroupedItemsPage.g.cs
+C:\Samples\ContosoCookbook\ContosoCookbook\obj\Debug\GroupDetailPage.g.i.cs
+C:\Samples\ContosoCookbook\ContosoCookbook\obj\Debug\GroupDetailPage.g.cs
+C:\Samples\ContosoCookbook\ContosoCookbook\obj\Debug\ItemDetailPage.g.i.cs
+C:\Samples\ContosoCookbook\ContosoCookbook\obj\Debug\ItemDetailPage.g.cs
+C:\Samples\ContosoCookbook\ContosoCookbook\obj\Debug\PreferencesSettingsFlyout.g.i.cs
+C:\Samples\ContosoCookbook\ContosoCookbook\obj\Debug\PreferencesSettingsFlyout.g.cs
+C:\Samples\ContosoCookbook\ContosoCookbook\obj\Debug\SearchResultsPage.g.i.cs
+C:\Samples\ContosoCookbook\ContosoCookbook\obj\Debug\SearchResultsPage.g.cs
+C:\Samples\ContosoCookbook\ContosoCookbook\obj\Debug\XamlTypeInfo.g.cs
+C:\Samples\ContosoCookbook\ContosoCookbook\obj\Debug\App.xaml
+C:\Samples\ContosoCookbook\ContosoCookbook\obj\Debug\AboutSettingsFlyout.xaml
+C:\Samples\ContosoCookbook\ContosoCookbook\obj\Debug\GroupedItemsPage.xaml
+C:\Samples\ContosoCookbook\ContosoCookbook\obj\Debug\GroupDetailPage.xaml
+C:\Samples\ContosoCookbook\ContosoCookbook\obj\Debug\ItemDetailPage.xaml
+C:\Samples\ContosoCookbook\ContosoCookbook\obj\Debug\PreferencesSettingsFlyout.xaml
+C:\Samples\ContosoCookbook\ContosoCookbook\obj\Debug\SearchResultsPage.xaml
+C:\Samples\ContosoCookbook\ContosoCookbook\obj\Debug\App.xbf
+C:\Samples\ContosoCookbook\ContosoCookbook\obj\Debug\AboutSettingsFlyout.xbf
+C:\Samples\ContosoCookbook\ContosoCookbook\obj\Debug\GroupedItemsPage.xbf
+C:\Samples\ContosoCookbook\ContosoCookbook\obj\Debug\GroupDetailPage.xbf
+C:\Samples\ContosoCookbook\ContosoCookbook\obj\Debug\ItemDetailPage.xbf
+C:\Samples\ContosoCookbook\ContosoCookbook\obj\Debug\PreferencesSettingsFlyout.xbf
+C:\Samples\ContosoCookbook\ContosoCookbook\obj\Debug\SearchResultsPage.xbf
+C:\Samples\ContosoCookbook\ContosoCookbook\obj\Debug\XamlSaveStateFile.xml
+C:\Samples\ContosoCookbook\ContosoCookbook\obj\Debug\ContosoCookbook.exe
+C:\Samples\ContosoCookbook\ContosoCookbook\obj\Debug\ContosoCookbook.pdb
+C:\Samples\ContosoCookbook\ContosoCookbook\obj\Debug\priconfig.xml
+C:\Samples\ContosoCookbook\ContosoCookbook\obj\Debug\priconfig.xml.intermediate
+C:\Samples\ContosoCookbook\ContosoCookbook\obj\Debug\layout.resfiles
+C:\Samples\ContosoCookbook\ContosoCookbook\obj\Debug\layout.resfiles.intermediate
+C:\Samples\ContosoCookbook\ContosoCookbook\obj\Debug\resources.resfiles
+C:\Samples\ContosoCookbook\ContosoCookbook\obj\Debug\resources.resfiles.intermediate
+C:\Samples\ContosoCookbook\ContosoCookbook\obj\Debug\pri.resfiles
+C:\Samples\ContosoCookbook\ContosoCookbook\obj\Debug\pri.resfiles.intermediate
+C:\Samples\ContosoCookbook\ContosoCookbook\obj\Debug\qualifiers.txt
+C:\Samples\ContosoCookbook\ContosoCookbook\obj\Debug\qualifiers.txt.intermediate
+C:\Samples\ContosoCookbook\ContosoCookbook\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Samples\ContosoCookbook\ContosoCookbook\obj\Debug\ProjectArchitectures.txt
+C:\Users\Michael\Downloads\Contoso Cookbook\ContosoCookbook\bin\Debug\App.xbf
+C:\Users\Michael\Downloads\Contoso Cookbook\ContosoCookbook\bin\Debug\ContosoCookbook.xr.xml
+C:\Users\Michael\Downloads\Contoso Cookbook\ContosoCookbook\bin\Debug\ContosoCookbook.exe
+C:\Users\Michael\Downloads\Contoso Cookbook\ContosoCookbook\bin\Debug\ContosoCookbook.pdb
+C:\Users\Michael\Downloads\Contoso Cookbook\ContosoCookbook\bin\Debug\resources.pri
+C:\Users\Michael\Downloads\Contoso Cookbook\ContosoCookbook\bin\Debug\AppxManifest.xml
+C:\Users\Michael\Downloads\Contoso Cookbook\ContosoCookbook\bin\Debug\ContosoCookbook.build.appxrecipe
+C:\Users\Michael\Downloads\Contoso Cookbook\ContosoCookbook\obj\Debug\App.g.i.cs
+C:\Users\Michael\Downloads\Contoso Cookbook\ContosoCookbook\obj\Debug\App.g.cs
+C:\Users\Michael\Downloads\Contoso Cookbook\ContosoCookbook\obj\Debug\XamlTypeInfo.g.cs
+C:\Users\Michael\Downloads\Contoso Cookbook\ContosoCookbook\obj\Debug\App.xaml
+C:\Users\Michael\Downloads\Contoso Cookbook\ContosoCookbook\obj\Debug\App.xbf
+C:\Users\Michael\Downloads\Contoso Cookbook\ContosoCookbook\obj\Debug\XamlSaveStateFile.xml
+C:\Users\Michael\Downloads\Contoso Cookbook\ContosoCookbook\obj\Debug\ContosoCookbook.exe
+C:\Users\Michael\Downloads\Contoso Cookbook\ContosoCookbook\obj\Debug\ContosoCookbook.pdb
+C:\Users\Michael\Downloads\Contoso Cookbook\ContosoCookbook\obj\Debug\priconfig.xml
+C:\Users\Michael\Downloads\Contoso Cookbook\ContosoCookbook\obj\Debug\priconfig.xml.intermediate
+C:\Users\Michael\Downloads\Contoso Cookbook\ContosoCookbook\obj\Debug\layout.resfiles
+C:\Users\Michael\Downloads\Contoso Cookbook\ContosoCookbook\obj\Debug\layout.resfiles.intermediate
+C:\Users\Michael\Downloads\Contoso Cookbook\ContosoCookbook\obj\Debug\resources.resfiles
+C:\Users\Michael\Downloads\Contoso Cookbook\ContosoCookbook\obj\Debug\resources.resfiles.intermediate
+C:\Users\Michael\Downloads\Contoso Cookbook\ContosoCookbook\obj\Debug\pri.resfiles
+C:\Users\Michael\Downloads\Contoso Cookbook\ContosoCookbook\obj\Debug\pri.resfiles.intermediate
+C:\Users\Michael\Downloads\Contoso Cookbook\ContosoCookbook\obj\Debug\qualifiers.txt
+C:\Users\Michael\Downloads\Contoso Cookbook\ContosoCookbook\obj\Debug\qualifiers.txt.intermediate
+C:\Users\Michael\Downloads\Contoso Cookbook\ContosoCookbook\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Michael\Downloads\Contoso Cookbook\ContosoCookbook\obj\Debug\ProjectArchitectures.txt
+C:\Users\Michael\Downloads\Contoso Cookbook\ContosoCookbook\obj\Debug\AboutFlyout.g.i.cs
+C:\Users\Michael\Downloads\Contoso Cookbook\ContosoCookbook\obj\Debug\AboutFlyout.g.cs
+C:\Users\Michael\Downloads\Contoso Cookbook\ContosoCookbook\obj\Debug\HubPage.g.i.cs
+C:\Users\Michael\Downloads\Contoso Cookbook\ContosoCookbook\obj\Debug\HubPage.g.cs
+C:\Users\Michael\Downloads\Contoso Cookbook\ContosoCookbook\obj\Debug\ItemPage.g.i.cs
+C:\Users\Michael\Downloads\Contoso Cookbook\ContosoCookbook\obj\Debug\ItemPage.g.cs
+C:\Users\Michael\Downloads\Contoso Cookbook\ContosoCookbook\obj\Debug\PreferencesFlyout.g.i.cs
+C:\Users\Michael\Downloads\Contoso Cookbook\ContosoCookbook\obj\Debug\PreferencesFlyout.g.cs
+C:\Users\Michael\Downloads\Contoso Cookbook\ContosoCookbook\obj\Debug\Resources.g.i.cs
+C:\Users\Michael\Downloads\Contoso Cookbook\ContosoCookbook\obj\Debug\Resources.g.cs
+C:\Users\Michael\Downloads\Contoso Cookbook\ContosoCookbook\obj\Debug\SectionPage.g.i.cs
+C:\Users\Michael\Downloads\Contoso Cookbook\ContosoCookbook\obj\Debug\SectionPage.g.cs
+C:\Users\Michael\Downloads\Contoso Cookbook\ContosoCookbook\obj\Debug\SectionUserControl.g.i.cs
+C:\Users\Michael\Downloads\Contoso Cookbook\ContosoCookbook\obj\Debug\SectionUserControl.g.cs
+C:\Users\Michael\Downloads\Contoso Cookbook\ContosoCookbook\obj\Debug\AboutFlyout.xaml
+C:\Users\Michael\Downloads\Contoso Cookbook\ContosoCookbook\obj\Debug\HubPage.xaml
+C:\Users\Michael\Downloads\Contoso Cookbook\ContosoCookbook\obj\Debug\ItemPage.xaml
+C:\Users\Michael\Downloads\Contoso Cookbook\ContosoCookbook\obj\Debug\PreferencesFlyout.xaml
+C:\Users\Michael\Downloads\Contoso Cookbook\ContosoCookbook\obj\Debug\Resources.xaml
+C:\Users\Michael\Downloads\Contoso Cookbook\ContosoCookbook\obj\Debug\SectionPage.xaml
+C:\Users\Michael\Downloads\Contoso Cookbook\ContosoCookbook\obj\Debug\SectionUserControl.xaml
+C:\Users\Michael\Downloads\Contoso Cookbook\ContosoCookbook\obj\Debug\AboutFlyout.xbf
+C:\Users\Michael\Downloads\Contoso Cookbook\ContosoCookbook\obj\Debug\HubPage.xbf
+C:\Users\Michael\Downloads\Contoso Cookbook\ContosoCookbook\obj\Debug\ItemPage.xbf
+C:\Users\Michael\Downloads\Contoso Cookbook\ContosoCookbook\obj\Debug\PreferencesFlyout.xbf
+C:\Users\Michael\Downloads\Contoso Cookbook\ContosoCookbook\obj\Debug\Resources.xbf
+C:\Users\Michael\Downloads\Contoso Cookbook\ContosoCookbook\obj\Debug\SectionPage.xbf
+C:\Users\Michael\Downloads\Contoso Cookbook\ContosoCookbook\obj\Debug\SectionUserControl.xbf
+C:\Users\Michael\Downloads\Contoso Cookbook\ContosoCookbook\bin\Debug\AboutFlyout.xbf
+C:\Users\Michael\Downloads\Contoso Cookbook\ContosoCookbook\bin\Debug\HubPage.xbf
+C:\Users\Michael\Downloads\Contoso Cookbook\ContosoCookbook\bin\Debug\ItemPage.xbf
+C:\Users\Michael\Downloads\Contoso Cookbook\ContosoCookbook\bin\Debug\PreferencesFlyout.xbf
+C:\Users\Michael\Downloads\Contoso Cookbook\ContosoCookbook\bin\Debug\Resources.xbf
+C:\Users\Michael\Downloads\Contoso Cookbook\ContosoCookbook\bin\Debug\SectionPage.xbf
+C:\Users\Michael\Downloads\Contoso Cookbook\ContosoCookbook\bin\Debug\SectionUserControl.xbf
+C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\bin\Debug\App.xbf
+C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\bin\Debug\AboutFlyout.xbf
+C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\bin\Debug\HubPage.xbf
+C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\bin\Debug\ItemPage.xbf
+C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\bin\Debug\PreferencesFlyout.xbf
+C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\bin\Debug\Resources.xbf
+C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\bin\Debug\SectionPage.xbf
+C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\bin\Debug\SectionUserControl.xbf
+C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\bin\Debug\ContosoCookbook.xr.xml
+C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\bin\Debug\ContosoCookbook.exe
+C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\bin\Debug\ContosoCookbook.pdb
+C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\bin\Debug\resources.pri
+C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\bin\Debug\AppxManifest.xml
+C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\bin\Debug\ContosoCookbook.build.appxrecipe
+C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\obj\Debug\App.g.i.cs
+C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\obj\Debug\App.g.cs
+C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\obj\Debug\AboutFlyout.g.i.cs
+C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\obj\Debug\AboutFlyout.g.cs
+C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\obj\Debug\HubPage.g.i.cs
+C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\obj\Debug\HubPage.g.cs
+C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\obj\Debug\ItemPage.g.i.cs
+C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\obj\Debug\ItemPage.g.cs
+C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\obj\Debug\PreferencesFlyout.g.i.cs
+C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\obj\Debug\PreferencesFlyout.g.cs
+C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\obj\Debug\Resources.g.i.cs
+C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\obj\Debug\Resources.g.cs
+C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\obj\Debug\SectionPage.g.i.cs
+C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\obj\Debug\SectionPage.g.cs
+C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\obj\Debug\SectionUserControl.g.i.cs
+C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\obj\Debug\SectionUserControl.g.cs
+C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\obj\Debug\XamlTypeInfo.g.cs
+C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\obj\Debug\App.xaml
+C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\obj\Debug\AboutFlyout.xaml
+C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\obj\Debug\HubPage.xaml
+C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\obj\Debug\ItemPage.xaml
+C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\obj\Debug\PreferencesFlyout.xaml
+C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\obj\Debug\Resources.xaml
+C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\obj\Debug\SectionPage.xaml
+C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\obj\Debug\SectionUserControl.xaml
+C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\obj\Debug\App.xbf
+C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\obj\Debug\AboutFlyout.xbf
+C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\obj\Debug\HubPage.xbf
+C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\obj\Debug\ItemPage.xbf
+C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\obj\Debug\PreferencesFlyout.xbf
+C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\obj\Debug\Resources.xbf
+C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\obj\Debug\SectionPage.xbf
+C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\obj\Debug\SectionUserControl.xbf
+C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\obj\Debug\XamlSaveStateFile.xml
+C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\obj\Debug\ContosoCookbook.exe
+C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\obj\Debug\ContosoCookbook.pdb
+C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\obj\Debug\priconfig.xml
+C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\obj\Debug\priconfig.xml.intermediate
+C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\obj\Debug\layout.resfiles
+C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\obj\Debug\layout.resfiles.intermediate
+C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\obj\Debug\resources.resfiles
+C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\obj\Debug\resources.resfiles.intermediate
+C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\obj\Debug\pri.resfiles
+C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\obj\Debug\pri.resfiles.intermediate
+C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\obj\Debug\qualifiers.txt
+C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\obj\Debug\qualifiers.txt.intermediate
+C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Michael\Dropbox\Speaking\TechEd\Source\WIN81App\ContosoCookbook\obj\Debug\ProjectArchitectures.txt
